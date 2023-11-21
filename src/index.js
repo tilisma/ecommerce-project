@@ -20,7 +20,7 @@ root.render(
           <Routes> 
           <Route path="/" element={<App/>}></Route>
           <Route path="/login" element={<Login/>}></Route>  
-          <Route path="/dashboard" element={<Dashboard/>}></Route> 
+          <Route path="/dashboard/*" element={<Dashboard/>}></Route> 
           </Routes>
           </BrowserRouter>
         </React.StrictMode>
